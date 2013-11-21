@@ -1,0 +1,32 @@
+{
+    "name": "alto",
+    "version": "0.0.03",
+    "description": "A MVC+Statechart framework for javascript applications.",
+    "bin": {
+        "alto": "./bin/alto"
+    },
+    "keywords": [
+        "mvc",
+        "mvcs",
+        "alto",
+        "alto.js",
+        "thecodeboutique",
+        "framework",
+        "mobile framework",
+        "desktop framework"
+    ],
+    "contributors": [
+        "Chad Eubanks"
+    ],
+    "author": "thecodeboutique <contact@altojs.com>",
+    "dependencies": {
+        "cli-color": "0.2.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TheCodeBoutique/Alto-Commander"
+    },
+    "engines": [
+        "node >= 0.8.0"
+    ]
+}
