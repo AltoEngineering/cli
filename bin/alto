@@ -1,23 +1,12 @@
 #!/usr/bin/env node
-require('./alto-new')
 
 /**
   Module dependencies.
 */
 
-var program = require('alto-cli')
-  , clc = require('cli-color')
-  , pkg = require('../package.json')
-  , version = pkg.version;
+var Alto = require('../frameworks/cli'),
+    arguments = process.argv.slice(2);
 
-  program
-    .command('*')
-    .action(function(){
-      console.log(clc.xterm(9)('Invalid command.  Use alto --help for directions'));
-    });
+  Alto.cli.action(arguments);
 
-  program
-     .version(version)
-
-  program.parse(process.argv);
 

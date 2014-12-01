@@ -1,32 +1,44 @@
 {
-    "name": "alto",
-    "version": "0.0.03",
-    "description": "A MVC+Statechart framework for javascript applications.",
-    "bin": {
-        "alto": "./bin/alto"
-    },
-    "keywords": [
-        "mvc",
-        "mvcs",
-        "alto",
-        "alto.js",
-        "thecodeboutique",
-        "framework",
-        "mobile framework",
-        "desktop framework"
-    ],
-    "contributors": [
-        "Chad Eubanks"
-    ],
-    "author": "thecodeboutique <contact@altojs.com>",
-    "dependencies": {
-        "cli-color": "0.2.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TheCodeBoutique/Alto-Commander"
-    },
-    "engines": [
-        "node >= 0.8.0"
-    ]
+  "name": "alto.js",
+  "version": "0.0.1",
+  "description": "Alto.js:  Architectural design for modern applications",
+  "bin": {
+    "alto": "./bin/alto"
+  },
+  "keywords": [
+    "mvc",
+    "mvcs",
+    "alto",
+    "alto.js",
+    "javascript framework",
+    "thecodeboutique",
+    "framework"
+  ],
+  "contributors": [
+    {
+      "name": "Chad Eubanks"
+    }
+  ],
+  "author": {
+    "name": "thecodeboutique",
+    "email": "contact@altojs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AltoEngineering/cli"
+  },
+  "engines": [
+    "node >= 0.10.33"
+  ],
+  "readme": "# Alto.js:\n\n“Architectural design for modern applications”",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/AltoEngineering/cli"
+  },
+  "homepage": "http://www.altojs.com",
+  "dependencies": {
+    "cli-color": "0.2.1",
+    "wrench": "1.5.0",
+    "string": "2.2.0"
+  }
 }
