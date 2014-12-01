@@ -18,7 +18,7 @@ Alto = module.exports = Alto;
 
 Alto.cli = Alto.Object.create ({
 
-    version: '0.0.3',
+    version: '0.0.4',
 
     commands: {},
 
@@ -103,7 +103,7 @@ Alto.cli = Alto.Object.create ({
         var commands = this.get("commands");
 
         if (args == 'version' || args == '--version' || args == 'v' || args == '--v' ) {
-            console.log(clc.xterm(153)('version 0.0.1'));
+            console.log(clc.xterm(153)(this.get('version')));
         } else if (this.commands[args[0]]) {
             if (Alto[args[0]]) {
                 Alto[args[0]].action(args.slice(1, args.length));
