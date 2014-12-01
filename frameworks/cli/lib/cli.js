@@ -18,7 +18,7 @@ Alto = module.exports = Alto;
 
 Alto.cli = Alto.Object.create ({
 
-    version: '0.0.1',
+    version: '0.0.2',
 
     commands: {},
 
