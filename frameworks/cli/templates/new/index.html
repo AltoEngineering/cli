@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alto.js | Architectural design for modern applications</title>
+    <title>Alto.js | Architectural design for modern applications</title
     <meta charset="utf-8">
-    <meta name="Author" content="">
+    <meta name="Author" content="The Code Boutique LLC.">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
-    <meta name="Description" content="">
+    <meta name="Description" content="Alto.js:  Architectural design for modern applications">
+
+    <!--Theme related files-->
+    <link rel="stylesheet" href="frameworks/altojs/ui/shared/theme/root_container_view.css">
+    <link rel="stylesheet" href="frameworks/altojs/ui/shared/theme/view.css">
+    <link rel="stylesheet" href="theme/css/main.css">
+
+    <!--Framework: Alto polyfills-->
+    <script type="text/javascript" src="frameworks/altojs/polyfills/strings.js"></script>
+    <!--Framework: Alto foundation-->
+    <script type="text/javascript" src="frameworks/altojs/foundation/metal.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/foundation/runtime.js"></script>
+    <!--Framework: UI-->
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/core_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/container_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/label_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/image_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/link_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/button_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/textfield_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/textarea_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/cell.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/list_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/shared/checkbox.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/desktop/mixins/event_listeners/click_events.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/desktop/mixins/event_listeners/hover_events.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/desktop/table_view/table_view.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/ui/utilities/dom.js"></script>
+    <!--Framework: Application-->
+    <script type="text/javascript" src="frameworks/altojs/application/debug/console.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/application/application.js"></script>
+    <!--Framework: Router-->
+    <script type="text/javascript" src="frameworks/altojs/router/router.js"></script>
+    <!--Framework: Statechart-->
+    <script type="text/javascript" src="frameworks/altojs/statechart/statechart.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/statechart/state.js"></script>
+    <!--Framework: Data Layer-->
+    <script type="text/javascript" src="frameworks/altojs/data_layer/record.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/data_layer/mapper.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/data_layer/controller.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/data_layer/request.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/data_layer/datasource.js"></script>
+    <script type="text/javascript" src="frameworks/altojs/data_layer/cookie.js"></script>
 </head>
-<body></body>
+<body class="alto-view-full-screen root-view">
+<!--Client Application-->
+<script type="text/javascript" src="app/application.js"></script>
+<!--App Controllers-->
+<!--App Models-->
+<!--App Fixtures-->
+<!--App Views-->
+<script type="text/javascript" src="app/views/index_view.js"></script>
+<!--App States-->
+<script type="text/javascript" src="app/states/index_state.js"></script>
+<!--App Network-->
+<!--App Router-->
+<script type="text/javascript" src="app/routes/router.js"></script>
+<!--Framework: Application-->
+<script type="text/javascript" src="frameworks/altojs/application/main.js"></script>
+</body>
 </html>
