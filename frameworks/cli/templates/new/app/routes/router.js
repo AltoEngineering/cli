@@ -1,8 +1,8 @@
 <project_name>.router = Alto.Router.create ({
 
-    routes: [{
-        url: 'index.html',
+    index: {
+        route: 'index.html',
         state: 'indexState'
-    }]
+    }
 
 });
