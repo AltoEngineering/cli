@@ -1,4 +1,4 @@
-<project_name>.indexState = Alto.State.create ({
+<project_name>.IndexState = Alto.State.extend ({
 
     enterState: function() {
         if (!<project_name>.indexView) {
